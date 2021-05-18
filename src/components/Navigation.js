@@ -1,10 +1,16 @@
 import * as React from 'react';
+import NavigationTab from './NavigationTab.js'
 
-const tabs = ["Tab 1", "Tab 2", "Tab 3"]
 
-const Navigation = () => {
+
+const Navigation = ({ tabs }) => {
+
+    console.log("Navigation tans", tabs)
+    const tabItems = tabs.map((tab, index) =>
+        <NavigationTab key={"tab-" + tab} tab={tab} />
+    );
     return (
-        <div>Navigation</div>
+        <ul>{tabItems}</ul>
     )
 }
 

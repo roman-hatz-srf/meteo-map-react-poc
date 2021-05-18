@@ -2,12 +2,14 @@ import * as React from 'react';
 import Title from './Title.js'
 import Navigation from './Navigation.js'
 
-const Header = () => {
+const Header = (props) => {
+    const { title, tabs } = props.headerData;
+    
     return (
-         <>
-         <Title/> 
-         <Navigation/> 
-         </>
+        <>
+            <Title title={title} />
+            <Navigation tabs={tabs} />
+        </>
     )
 }
 

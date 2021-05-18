@@ -1,8 +1,8 @@
 import * as React from 'react';
- 
-const Title = () => {
+
+const Title = ({title}) => {
     return (
-        <div>Title</div>
+        <h3>{title}</h3>
     )
 }
 
