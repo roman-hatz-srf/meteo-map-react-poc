@@ -36,7 +36,7 @@ const App = () => {
   //console.log("isLoading",isLoading)
   return (
     <>
-    <h1>Step 4: Header and Navigation with remote data (index.json) and loading state</h1>
+    <h1>Step 5: Header and Navigation with remote data (index.json) and loading state</h1>
       {isLoading ? (
         <p>Loading ...</p>
       ) : (<>
