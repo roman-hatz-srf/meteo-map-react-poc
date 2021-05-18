@@ -1,31 +1,25 @@
- 
-import './App.css';
+import React from 'react';
 
-function App() {
+import Header from './components/Header.js'
+import Content from './components/Content.js'
+import Footer from './components/Footer.js'
+import './App.css';
+ 
+
+
+
+const App = () => {
   return (
     <>
-    <h1>Step 1: Meteo Map Component hierarchy</h1>
-      <ul>
-        <li>Header</li>
-        <ul>
-          <li>Title</li>
-          <li>Navigation</li>
-        </ul>
+     <h1>Step 2: Meteo Map Components</h1>
 
-        <li>Content</li>
-        <ul>
-          <li>Map</li>
-          <li>Map Controls  </li>
-        </ul>
-
-        <li>Footer</li>
-        <ul>
-          <li>Sources</li>
-        </ul>
-      </ul>
-        
+     <Header/>
+     <Content/>
+     <Footer/>      
     </>
   );
 }
+
+ 
 
 export default App;
