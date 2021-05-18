@@ -13,7 +13,7 @@ const headerData = {
 const App = () => {
   return (
     <>
-     <h1>Step 3: Navigation Tabs with constant data</h1>
+     <h1>Step 4: Navigation Tabs with Active State</h1>
 
      <Header headerData={headerData}/>
      <Content/>

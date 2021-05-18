@@ -2,10 +2,12 @@ import * as React from 'react';
 
 
 
-const NavigationTab = ({ tab }) => {
-
+const NavigationTab = ({ tab, id, activeTab, onClick }) => {
+    console.log("NavigationTab render")
+    const classNames = activeTab == id ? "tabNavItem tabNavItem--active" : "tabNavItem"
+ 
     return (
-        <li >{tab}</li>
+        <li onClick={onClick} className={classNames} id={id}>{tab}</li>
     )
 }
 
