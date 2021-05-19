@@ -3,8 +3,11 @@
 https://docs.google.com/document/d/1rl7Ud__eY31hOrfBRAsZm19_-xfBCWKbN9-FE8mq_JE 
 
 Demonstrates some best practices from the book “The Road to React (2020)” 
+
 Meteo Map SRF Mini-MVP Draft
+
 Using real meteo map JSON data
+
 Handle multiple states for data loading (Active, Loading, Error) 
 
 ## 7 steps in 7 branches
