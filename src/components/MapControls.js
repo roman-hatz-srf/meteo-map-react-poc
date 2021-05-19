@@ -6,5 +6,4 @@ const MapControls = () => {
     )
 }
 
-
 export default MapControls;

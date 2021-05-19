@@ -3,7 +3,7 @@ import Title from './Title.js'
 import Navigation from './Navigation.js'
 
 const Header = (props) => {
-    console.log("Header render", props)
+    console.log("Header render")
     const { title, tabs } = props.data;
     const tabNames = tabs.map(a => a.name);
     const tabUrls = tabs.map(a => a.url);
