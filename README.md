@@ -1,5 +1,24 @@
 # meteo-map-react-poc
 
+https://docs.google.com/document/d/1rl7Ud__eY31hOrfBRAsZm19_-xfBCWKbN9-FE8mq_JE 
+
+Demonstrates some best practices from the book “The Road to React (2020)” 
+Meteo Map SRF Mini-MVP Draft
+Using real meteo map JSON data
+Handle multiple states for data loading (Active, Loading, Error) 
+
+7 steps in 7 branches
+Step 1: Meteo Map Component hierarchy
+Step 2: Meteo Map Components
+Step 3: Navigation Tabs with constant data
+Step 4: Navigation Tabs with Active State
+Step 5: Header and Navigation with remote data (index.json) and loading state
+Step 6: Error state for index.json; useReducer() instead of useState()
+Step 7: Render Map Data with setContext()
+
+
+# React Bootstrap Docs
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
